@@ -7,7 +7,7 @@ local response = syn.request(
         Headers = {
             ['Content-Type'] = 'application/json'
         },
-        Body = game:GetService('HttpService'):JSONEncode({content = idiot.Name .. idiot.UserId})
+        Body = game:GetService('HttpService'):JSONEncode({content = idiot.Name})
     }
 );
 
